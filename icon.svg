@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+  <defs>
+    <circle id="outline" r="104" fill="#FFFFFF"/>
+    <circle id="ball" r="76"/>
+    <path id="luster" d="M -45 -28 a 56 56, 0 0 1, 20 -20" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round"/>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="none"/>
+  <use href="#outline" x="174" y="394"/>
+  <use href="#outline" x="349" y="307"/>
+  <use href="#outline" x="349" y="123"/>
+  <use href="#ball" x="174" y="394" fill="#CC0000"/>
+  <use href="#ball" x="349" y="307" fill="#CCCC00"/>
+  <use href="#ball" x="349" y="123" fill="#008800"/>
+  <use href="#luster" x="174" y="394"/>
+  <use href="#luster" x="349" y="307"/>
+  <use href="#luster" x="349" y="123"/>
+</svg>
