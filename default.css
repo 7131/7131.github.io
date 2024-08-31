@@ -8,6 +8,12 @@ article {
     margin-bottom: 10ex;
 }
 
+h1 {
+    padding-left: 60px;
+    line-height: 50px;
+    background: url(./icon.svg) no-repeat left / 50px 50px;
+}
+
 li {
     margin: 1ex 0ex;
 }
