@@ -5,13 +5,34 @@ body {
     margin-bottom: 10ex;
 }
 
-h1 {
-    padding-left: 60px;
-    line-height: 50px;
-    background: url(./icon.svg) no-repeat left / 50px 50px;
+nav {
+    float: right;
 }
 
-li {
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 2ex;
+}
+
+h1 img {
+    float: left;
+    margin-right: 0.5ex;
+    width: 3ex;
+}
+
+ol li {
     margin: 1ex 0ex;
+}
+
+@media (orientation: landscape) {
+
+    body {
+        line-height: 1.5;
+    }
+
 }
 
