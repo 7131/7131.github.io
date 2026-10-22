@@ -18,10 +18,18 @@ nav ul li {
     margin-right: 2ex;
 }
 
+img {
+    width: 3ex;
+}
+
 h1 img {
     float: left;
     margin-right: 0.5ex;
-    width: 3ex;
+}
+
+a img {
+    vertical-align: sub;
+    margin-left: 1ex;
 }
 
 ol li {
